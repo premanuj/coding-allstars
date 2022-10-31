@@ -1,0 +1,8 @@
+web:
+  build: .
+  command: ./run.sh
+  container_name: coding-allstars
+  ports:
+    - 8000:8000
+  env_file:
+    - ./.env
