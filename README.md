@@ -20,6 +20,15 @@
   docker-compose up 
   docker-compose up -d # for demaon mode
   ```
+### You can also pull docker image directly and run it
+- Pull image
+```
+docker pull premanuj/coding-allstars:0.0.1
+```
+- Run image
+```
+docker run premanuj/coding-allstars:0.0.1
+```
 ### Without docker
 - Activate an virtutia env
   ``` 
